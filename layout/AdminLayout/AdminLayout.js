@@ -1,11 +1,12 @@
-import React from 'react';
-import Sidebar from './Sidebar'
-import { Grid,Container } from "@mui/material";
-const  AdminLayout = ({ children }) => {
+import React from "react";
+import Sidebar from "./Sidebar";
+import { Grid, Container } from "@mui/material";
+import Header from "./Header";
 
+const AdminLayout = ({ children }) => {
   return (
     <Container>
-      <h1 className="my-[20px]">Tabsera</h1>
+      <Header />
 
       <Grid container spacing={1} className=" mt-[50px]">
         <Grid item xs={4} className="h-[100vh] shadow-lg rounded-lg ">
@@ -17,5 +18,5 @@ const  AdminLayout = ({ children }) => {
       </Grid>
     </Container>
   );
-}
+};
 export default AdminLayout;
