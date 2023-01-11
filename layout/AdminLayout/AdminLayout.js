@@ -5,7 +5,7 @@ const  AdminLayout = ({ children }) => {
 
   return (
     <Container>
-      <h1 className="my-[20px]">Learning project</h1>
+      <h1 className="my-[20px]">Tabsera</h1>
 
       <Grid container spacing={1} className=" mt-[50px]">
         <Grid item xs={4} className="h-[100vh] shadow-lg rounded-lg ">
